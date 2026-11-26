@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-bs-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfólio de Bernardo Kopp, estudante de Análise e Desenvolvimento de Sistemas.">
+  <title>Bernardo Kopp | Portfólio</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- css -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- menu -->
+  <nav class="navbar navbar-expand-md sticky-top bg-body border-bottom">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#inicio">Bernardo Kopp</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+              aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto me-md-3">
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#conhecimentos">Conhecimentos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+        <button id="botao-tema" class="btn btn-outline-secondary btn-sm my-2 my-md-0" type="button">Tema escuro</button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- inicio -->
+    <header id="inicio" class="py-5">
+      <div class="container py-md-4">
+        <div class="row align-items-center g-4">
+          <div class="col-md-8 order-2 order-md-1 text-center text-md-start">
+            <h1 class="display-5 fw-bold">Olá, eu sou o Bernardo.</h1>
+            <p class="lead">Estudo Análise e Desenvolvimento de Sistemas e estou no 2º semestre.</p>
+            <a href="#projetos" class="btn btn-primary me-2">Ver projetos</a>
+            <a href="#contato" class="btn btn-outline-primary">Contato</a>
+          </div>
+          <div class="col-md-4 order-1 order-md-2 text-center">
+            <!-- foto minha -->
+            <img src="img/foto-perfil.jpg" alt="Foto de Bernardo Kopp" class="foto-perfil img-fluid rounded-circle">
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- sobre -->
+    <section id="sobre" class="py-5 bg-body-tertiary">
+      <div class="container">
+        <h2 class="mb-4">Sobre mim</h2>
+        <div class="row">
+          <div class="col-lg-8">
+            <p>Estou construindo minha base como desenvolvedor por meio da faculdade e de projetos práticos. Até aqui, meu foco tem sido lógica de programação e os fundamentos de software.</p>
+            <p>Não quero me limitar a uma única tecnologia: pretendo conhecer outras linguagens, ferramentas e áreas ao longo do curso. Meu objetivo é conquistar a primeira oportunidade na área.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- meus conhecimentos -->
+    <section id="conhecimentos" class="py-5">
+      <div class="container">
+        <h2 class="mb-4">Conhecimentos</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <h3 class="h5">Linguagens</h3>
+            <ul class="list-group">
+              <li class="list-group-item">C</li>
+              <li class="list-group-item">Python</li>
+              <li class="list-group-item">HTML</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h3 class="h5">Ferramentas</h3>
+            <ul class="list-group">
+              <li class="list-group-item">Git e GitHub</li>
+              <li class="list-group-item">VS Code</li>
+              <li class="list-group-item">Flowgorithm</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h3 class="h5">Estudando agora</h3>
+            <ul class="list-group">
+              <li class="list-group-item">Lógica de programação</li>
+              <li class="list-group-item">Desenvolvimento web</li>
+              <li class="list-group-item">Python e C</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- meus projetos -->
+    <section id="projetos" class="py-5 bg-body-tertiary">
+      <div class="container">
+        <h2 class="mb-4">Projetos</h2>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+
+          <div class="col">
+            <article class="card h-100">
+              <!-- imagem da calculadora -->
+              <img src="img/projeto-calculadora.jpg" class="card-img-top imagem-projeto" alt="Tela da calculadora em C">
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title h5">Calculadora em C</h3>
+                <p class="card-text">Planejada no Flowgorithm e depois escrita em C. Faz operações básicas, cálculo de áreas e IMC, conversões e outras funções. Está no repositório da disciplina de algoritmos.</p>
+                <a href="https://github.com/bernardokoppdev/desenvolvimento-de-algoritmo-e-pensamento-computacional" class="btn btn-outline-primary btn-sm mt-auto align-self-start" target="_blank" rel="noopener">Ver no GitHub</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col">
+            <article class="card h-100">
+              <!-- print do programa de vetor -->
+              <img src="img/projeto-vetor.jpg" class="card-img-top imagem-projeto" alt="Execução do programa de análise de vetor">
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title h5">Análise de Vetor</h3>
+                <p class="card-text">Programa em C que lê 20 números inteiros e mostra o maior e o menor valor, a média dos pares, a soma dos múltiplos de 3 e a contagem de positivos e negativos.</p>
+                <a href="https://github.com/bernardokoppdev/atividade-vetor" class="btn btn-outline-primary btn-sm mt-auto align-self-start" target="_blank" rel="noopener">Ver no GitHub</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col">
+            <article class="card h-100">
+              <!-- print do sistema de senhas -->
+              <img src="img/projeto-senhas.jpg" class="card-img-top imagem-projeto" alt="Tela do sistema de senhas para clínica">
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title h5">Sistema de Senhas para Clínica</h3>
+                <p class="card-text">Projeto em linguagem C. O código está disponível no meu GitHub.</p>
+                <a href="https://github.com/bernardokoppdev/sistema-senhas-clinica" class="btn btn-outline-primary btn-sm mt-auto align-self-start" target="_blank" rel="noopener">Ver no GitHub</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col">
+            <article class="card h-100">
+              <!-- print do desafio de monitoramento -->
+              <img src="img/projeto-monitoramento.jpg" class="card-img-top imagem-projeto" alt="Tela do desafio de monitoramento">
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title h5">Desafio de Monitoramento</h3>
+                <p class="card-text">Projeto em linguagem C. O código está disponível no meu GitHub.</p>
+                <a href="https://github.com/bernardokoppdev/desafio-monitoramento" class="btn btn-outline-primary btn-sm mt-auto align-self-start" target="_blank" rel="noopener">Ver no GitHub</a>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- contato -->
+    <section id="contato" class="py-5">
+      <div class="container text-center">
+        <h2>Contato</h2>
+        <p>Quer conversar ou acompanhar meus estudos? Me encontre por aqui:</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a href="https://www.linkedin.com/in/bernardo-kopp-11b69842b/" class="btn btn-primary" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/bernardokoppdev" class="btn btn-outline-secondary" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-top py-3 text-center">
+    <small>&copy; <span id="ano">2026</span> Bernardo Kopp</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

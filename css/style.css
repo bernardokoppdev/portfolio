@@ -1,0 +1,27 @@
+/* rolagem quando clica no menu */
+html {
+  scroll-behavior: smooth;
+}
+
+section, header {
+  scroll-margin-top: 56px;
+}
+
+.foto-perfil {
+  width: 240px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border: 4px solid var(--bs-border-color);
+}
+
+.imagem-projeto {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+/* celular */
+@media (max-width: 767px) {
+  .foto-perfil {
+    width: 170px;
+  }
+}
