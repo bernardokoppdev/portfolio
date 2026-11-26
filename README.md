@@ -11,7 +11,7 @@ Site pessoal feito com HTML, CSS, JavaScript e Bootstrap 5.
 
 ## Como executar
 
-Abra o arquivo `index.html` no navegador. O Bootstrap vem por CDN, então é preciso ter internet.
+Abra o arquivo `index.html` no navegador. O Bootstrap vem por CDN, então precisa ter internet.
 
 ## Imagens
 
