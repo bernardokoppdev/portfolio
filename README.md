@@ -1,26 +1,60 @@
 # Portfólio - Bernardo Kopp
 
-Site pessoal feito com HTML, CSS, JavaScript e Bootstrap 5.
+Site de portfólio pessoal com informações sobre mim, meus conhecimentos, projetos e contatos.
 
-## Estrutura
+🔗 **Acesse o site:** https://bernardokoppdev.github.io/portfolio/
 
-    index.html      conteúdo
-    css/style.css   estilos
-    js/script.js    tema claro/escuro, menu do celular e ano do rodapé
-    img/            imagens
+## Sobre o trabalho
+
+Projeto final de Desenvolvimento Web.
+
+- **Instituição:** UDF
+- **Aluno:** Bernardo Kopp Pinheiro
+- **RGM:** 47294264
+- **Professor:** Eliel Cruz
+
+## Tecnologias
+
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap 5
+- GitHub Pages
+
+## Funcionalidades
+
+- Layout responsivo para computador e celular
+- Menu adaptado para telas pequenas, que fecha ao clicar em um link
+- Alternância entre tema claro e escuro, com a escolha salva no navegador
+- Ano do rodapé atualizado automaticamente
+- Links para os projetos, o GitHub e o LinkedIn
+
+## Requisitos do projeto
+
+| Requisito | Como foi atendido |
+|---|---|
+| Site portfólio | Apresentação pessoal, conhecimentos, projetos e contato |
+| Hospedagem no GitHub Pages | Site publicado no link acima |
+| HTML, CSS e JavaScript | Conteúdo, estilos e interações do site |
+| Design responsivo | Grid do Bootstrap e media query no CSS |
+| Arquivos separados | HTML, CSS, JavaScript e imagens organizados separadamente |
+
+## Estrutura de pastas
+
+```
+portfolio/
+├── css/
+│   └── style.css
+├── img/
+├── js/
+│   └── script.js
+├── index.html
+└── README.md
+```
 
 ## Como executar
 
-Abra o arquivo `index.html` no navegador. O Bootstrap vem por CDN, então precisa ter internet.
+1. Baixe ou clone este repositório.
+2. Abra o arquivo `index.html` no navegador.
 
-## Imagens
-
-Substitua os arquivos da pasta `img/` mantendo os mesmos nomes:
-
-| Arquivo | Conteúdo | Tamanho sugerido |
-|---|---|---|
-| foto-perfil.jpg | minha foto | 600 x 600 |
-| projeto-calculadora.jpg | print da calculadora | 800 x 450 |
-| projeto-vetor.jpg | print da análise de vetor | 800 x 450 |
-| projeto-senhas.jpg | print do sistema de senhas | 800 x 450 |
-| projeto-monitoramento.jpg | print do monitoramento | 800 x 450 |
+É preciso ter internet, pois o Bootstrap é carregado por CDN.
